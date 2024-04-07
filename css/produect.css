@@ -1,0 +1,190 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+nav.navbar 
+{
+    background-color: gray;
+    position: relative;
+}
+h1.navbar-brand
+{
+    font-size: 2.5rem;
+    margin-left: 10px;
+    color: rgba(0, 0, 0, 0.7);
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav a.lin1
+{
+    text-decoration: none;
+}
+nav a.lin2
+{
+    text-decoration: none;
+}
+nav a.lin
+{
+    text-decoration: none;
+}
+nav a button.but1
+{
+    background-color: white;
+    /* margin-left: 180px; */
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    text-align: center;
+    /* margin-left: 5px; */
+}
+nav a button.but1:hover
+{
+    background-color: black;
+    color: white;
+}
+nav a.lin3 button.but2
+{
+    background-color: white;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    text-align: center;
+}
+
+nav a button.but2:hover
+{
+    background-color: black;
+    color: white;
+}
+.but3
+{
+    text-transform: capitalize;
+    font-size: 1.1rem;
+}
+.but3:hover .drop2
+{
+    transform: rotate(180deg);
+    color: white;
+}
+.drop1
+{
+    background-color: rgb(107, 105, 105);
+    outline: none;
+    border: none;
+    border-radius: 10px 15px 15px 10px;
+    height: 45px;
+    position: relative;
+    z-index: 2;
+}
+.inp
+{
+    width: 1100px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+}
+.gla1
+{
+    font-size: 1.5rem;
+    background-color: rgb(194, 137, 32);
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.car1
+{
+    font-size: 2.5rem;
+    margin-top: 10px;
+    cursor: pointer;
+    color: black;
+}
+.car1:hover .tex1
+{
+    display: inline-block;
+}
+.tex1
+{
+    font-size: 1.2rem;
+    margin-left: 5px;
+    /* margin-top: 5px; */
+    text-transform: capitalize;
+    display: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.sec1
+{
+    margin-top: 35px;
+    /* margin-left: 30px; */
+}
+.products
+{
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+    /* margin-left: 30px; */
+}
+.product_item
+{
+    border: 1px solid #ddd;
+    width: 55%;
+    border-radius: 10px;
+}
+
+.product_item img
+{
+    width: 220px;
+    height: 220px;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px black;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.fa-star
+{
+    font-size: 25px;
+    background-color: yellow;
+    overflow: hidden;
+}
+.product_item_desc
+{
+    text-align: center;
+    margin-top: 18px;
+    font-size: 1.2rem;
+    padding: 10px;
+    text-transform: capitalize;
+    color: rgb(85, 82, 82);
+}
+.product_item_desc span
+{
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.product_item_action
+{
+    margin-left: 110px;
+}
+.product_item_action button
+{
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    background-color: rgb(26, 111, 196);
+    padding: 10px;
+}
+.product_item_action .fa-heart
+{
+    margin-left: 115px;
+    float: right;
+    margin-bottom: 0px;
+    font-size: 1.2rem;
+}

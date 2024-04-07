@@ -1,0 +1,894 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    height: 10000px;
+}
+nav.navbar 
+{
+    background-color: gray;
+    position: relative;
+}
+h1.navbar-brand
+{
+    font-size: 2.5rem;
+    margin-left: 10px;
+    color: rgba(0, 0, 0, 0.7);
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav a.lin1
+{
+    text-decoration: none;
+}
+nav a.lin2
+{
+    text-decoration: none;
+}
+nav a.lin
+{
+    text-decoration: none;
+}
+ul .shopping-cart
+{
+    list-style: none;
+    position: relative;
+}
+ul span.badge
+{
+    font-size: .8rem;
+    position: absolute;
+    top: 3px;
+    right: 90px;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    display: none;
+    text-align: center;
+    border-radius: 50%;
+}
+.car1
+{
+    font-size: 2.1rem;
+    color: white;
+    margin-top: 10px;
+    margin-right: 100px;
+    cursor: pointer;
+}
+ul .carts_products
+{
+    display: none;
+    width: 200px;
+    transform: translate(-30%,0);
+    background-color: white;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    position: absolute;
+    top: 50px;
+    z-index: 2;
+    padding: 10px;
+    border: 1px solid black;
+}
+.carts_products a
+{
+    display: block;
+    color: black;
+    text-decoration: none;
+    margin: 4px 0;
+    padding: 0;
+    text-transform: capitalize;
+}
+
+nav a button.but1
+{
+    background-color: white;
+    /* margin-left: 180px; */
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    text-align: center;
+    /* margin-left: 5px; */
+}
+nav a button.but1:hover
+{
+    background-color: black;
+    color: white;
+}
+nav a.lin3 button.but2
+{
+    background-color: white;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    text-align: center;
+}
+
+nav a button.but2:hover
+{
+    background-color: black;
+    color: white;
+}
+li.liy
+{
+    list-style: none;
+    margin-right: 5px;
+    display: inline-block;
+}
+li.liy a
+{
+    text-decoration: none;
+    font-size: 1.3rem;
+    margin-left: 10px;
+    color: white;
+}
+.but1
+{
+    margin-right: 20px;
+}
+.use2
+{
+    font-size: 1.8rem;
+    color: rgb(76, 73, 73);
+    display: none;
+}
+.but3
+{
+    text-transform: capitalize;
+    font-size: 1.1rem;
+}
+.but3:hover .drop2
+{
+    transform: rotate(180deg);
+    color: white;
+}
+.drop1
+{
+    background-color: rgb(107, 105, 105);
+    outline: none;
+    border: none;
+    border-radius: 10px 15px 15px 10px;
+    height: 45px;
+    position: relative;
+    z-index: 2;
+}
+.inp
+{
+    width: 1100px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+}
+.gla1
+{
+    font-size: 1.5rem;
+
+    background-color: rgb(194, 137, 32);
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.nav .list1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.offcanvas-header
+{
+    background-color: rgb(15, 16, 23);
+}
+.logout
+{
+    display: inline-block;
+    list-style: none;
+    margin-left: 10px;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+.logout a 
+{
+    color: blue;
+    text-decoration: none;
+}
+.use1
+{
+    font-size: 1.9rem;
+    color: rgb(89, 87, 87);
+    font-weight: bold;
+}
+.phg1
+{
+    display: inline-block;
+    padding: 0 10px 0 10px;
+    font-size: 2.4rem;
+    text-transform: capitalize;
+    color: white;
+}
+.phg2
+{
+    display: inline-block;
+    padding-right: 5px;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+.phg3
+{
+    text-transform: capitalize;
+    font-size: 2rem;
+}
+.lin5 , .lin6, .lin7
+{
+    text-decoration: none;
+    font-size: .7rem;
+    text-transform: capitalize;
+    color: rgba(63, 60, 60, 0.7);
+}
+.phg4 , .phg5, .phg6
+{
+    padding: 10px 0 10px 0;
+}
+.phg7
+{
+    text-transform: capitalize;
+    font-size: 2rem;
+}
+.lin8 , .lin9 , .lin10 , .lin11
+{
+    text-decoration: none;
+    font-size: .7rem;
+    text-transform: capitalize;
+    color: rgba(63, 60, 60, 0.7);
+}
+.phg8 , .phg9 , .phg10 , .phg11
+{
+    padding: 10px 0 10px 0;
+}
+.nex1 , .nex2 , .nex3 , .nex4 
+{
+    font-size: 1.2rem;
+    float: right;
+    padding: 10px 0 10px 0;
+}
+.phg12
+{
+    text-transform: capitalize;
+    font-size: 2rem;
+}
+.lin12 , .lin13
+{
+    text-decoration: none;
+    font-size: .7rem;
+    text-transform: capitalize;
+    color: rgba(63, 60, 60, 0.7);
+}
+.phg13 , .phg14
+{
+    padding: 10px 0 10px 0;
+}
+.phg15 
+{
+    text-transform: capitalize;
+    font-size: 2rem;
+}
+.phg16 , .phg17 
+{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.ear1
+{
+    padding-right: 7px;
+}
+.lin14 , .lin15
+{
+    text-decoration: none;
+    font-size: .7rem;
+    text-transform: capitalize;
+    color: rgba(63, 60, 60, 0.7);
+    text-decoration: none;
+}
+.but4
+{
+    font-size: 1.8rem;
+    color: white;
+}
+.lin4
+{
+    color: white;
+}
+.navb2
+{
+    background-color: rgb(2, 19, 45);
+    margin-top: 5px;
+}
+.coll1 .nav-item .nav-link
+{
+    color: black;
+    font-size: 1.2rem;
+    padding: 0 30px 0 30px;
+}
+.sec1
+{
+    margin-top: 35px;
+    /* margin-left: 30px; */
+}
+.products
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+    /* margin-left: 30px; */
+}
+.product_item
+{
+    border: 1px solid #ddd;
+    width: 55%;
+    border-radius: 10px;
+}
+
+.product_item img
+{
+    width: 220px;
+    height: 220px;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px black;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.fa-star
+{
+    font-size: 25px;
+    background-color: yellow;
+    overflow: hidden;
+}
+.product_item_desc
+{
+    text-align: center;
+    margin-top: 18px;
+    font-size: 1.2rem;
+    padding: 10px;
+    text-transform: capitalize;
+    color: rgb(85, 82, 82);
+}
+.product_item_desc span
+{
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.product_item_action
+{
+    margin-left: 110px;
+}
+.product_item_action button
+{
+    border: 2px solid black;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    background-color: rgb(26, 111, 196);
+    padding: 10px;
+}
+.product_item_action .fa-heart
+{
+    margin-left: 115px;
+    float: right;
+    margin-bottom: 0px;
+    font-size: 1.2rem;
+}
+.sec2
+{
+    margin-top: 35px;
+    margin-left: 30px;
+}
+/* .card2
+{
+    border: 2px solid #ddd;
+    width: 350px;
+    height: 530px;
+    margin-left: 80px;
+    margin-right: 50px;
+    border-radius: 20px;
+    overflow: hidden;
+    display: inline-block;
+}
+.imag2
+{
+    border-radius: 15px;
+    box-shadow: 2px 2px 6px black;
+    width: 75%;
+    height: 250px;
+    margin: 15px 30px;
+}
+.imag2:hover
+{
+    transform:scale(1.1 , 1.1)
+}
+.hear2
+{
+    margin-top: 10px;
+    margin-left: 300px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    width: 20px;
+}
+.tex15
+{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    color: rgb(82, 80, 80);
+}
+.tex16
+{
+    margin-left: 20px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+.card2 span
+{
+    display: inline-block;
+    margin-top: -35px;
+    text-transform: uppercase;
+    font-size: .9rem;
+    margin-left: 15px;
+}
+.tex17
+{
+    display: inline-block;
+    margin-right: 90px;
+    text-align: center;
+    margin-top: 15px;
+}
+.card2 a .but7
+{
+    margin-left: 120px;
+    background-color: rgb(80, 152, 211);
+    text-align: center;
+    padding: 10px;
+    text-transform: capitalize;
+    outline: none;
+    box-shadow: none;
+    margin-top: 15px;
+}
+.card3
+{
+    border: 2px solid #ddd;
+    width: 350px;
+    height: 530px;
+    margin-left: 80px;
+    margin-right: 90px;
+    border-radius: 20px;
+    overflow: hidden;
+    display: inline-block;
+}
+.imag3
+{
+    border-radius: 15px;
+    box-shadow: 2px 2px 6px black;
+    width: 75%;
+    height: 250px;
+    margin: 15px 30px;
+}
+.hear3
+{
+    margin-left: 300px;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    width: 20px;
+}
+.imag3:hover
+{
+    transform:scale(1.1 , 1.1)
+}
+.tex18
+{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    color: rgb(82, 80, 80);
+}
+.tex19
+{
+    margin-left: 20px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+.card3 span
+{
+    display: inline-block;
+    margin-top: -35px;
+    text-transform: uppercase;
+    font-size: .9rem;
+    margin-left: 15px;
+}
+.tex20
+{
+    display: inline-block;
+    margin-right: 90px;
+    text-align: center;
+    margin-top: 15px;
+}
+.card3 a .but8
+{
+    margin-left: 120px;
+    background-color: rgb(80, 152, 211);
+    text-align: center;
+    padding: 10px;
+    text-transform: capitalize;
+    outline: none;
+    box-shadow: none;
+    margin-top: 15px;
+}
+.card4
+{
+    border: 2px solid #ddd;
+    width: 350px;
+    height: 530px;
+    margin-left: 25px;
+    border-radius: 20px;
+    overflow: hidden;
+    display: inline-block;
+}
+.imag4
+{
+    border-radius: 15px;
+    box-shadow: 2px 2px 6px black;
+    width: 75%;
+    height: 250px;
+    margin: 15px 30px;
+}
+.hear4
+{
+    margin-left: 300px;
+    margin-top: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    width: 20px;
+}
+.imag4:hover
+{
+    transform:scale(1.1 , 1.1)
+}
+.tex21
+{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    color: rgb(82, 80, 80);
+}
+.tex22
+{
+    margin-left: 20px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+.card4 span
+{
+    display: inline-block;
+    margin-top: -35px;
+    text-transform: uppercase;
+    font-size: .9rem;
+    margin-left: 15px;
+}
+.tex23
+{
+    display: inline-block;
+    margin-right: 90px;
+    text-align: center;
+    margin-top: 15px;
+}
+.card4 a .but9
+{
+    margin-left: 120px;
+    background-color: rgb(80, 152, 211);
+    text-align: center;
+    padding: 10px;
+    text-transform: capitalize;
+    outline: none;
+    box-shadow: none;
+    margin-top: 15px;
+}
+
+.card5
+{
+    border: 2px solid #ddd;
+    width: 350px;
+    height: 530px;
+    margin-left: 60px;
+    margin-right: 50px;
+    border-radius: 20px;
+    overflow: hidden;
+    display: inline-block;
+}
+.imag5
+{
+    border-radius: 15px;
+    box-shadow: 2px 2px 6px black;
+    width: 75%;
+    height: 250px;
+    margin: 15px 30px;
+}
+.hear5
+{
+    margin-top: 10px;
+    margin-left: 300px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    width: 20px;
+}
+.imag5:hover
+{
+    transform:scale(1.1 , 1.1)
+}
+.tex24
+{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    color: rgb(82, 80, 80);
+}
+.tex25
+{
+    margin-left: 20px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+.card5 span
+{
+    display: inline-block;
+    margin-top: -35px;
+    text-transform: uppercase;
+    font-size: .9rem;
+    margin-left: 15px;
+}
+.tex26
+{
+    display: inline-block;
+    margin-right: 90px;
+    text-align: center;
+    margin-top: 15px;
+}
+.card5 a .but10
+{
+    margin-left: 120px;
+    background-color: rgb(80, 152, 211);
+    text-align: center;
+    padding: 10px;
+    text-transform: capitalize;
+    outline: none;
+    box-shadow: none;
+    margin-top: 15px;
+}
+.card6
+{
+    border: 2px solid #ddd;
+    width: 350px;
+    height: 530px;
+    margin-left: 80px;
+    margin-right: 50px;
+    border-radius: 20px;
+    overflow: hidden;
+    display: inline-block;
+}
+.imag6
+{
+    border-radius: 15px;
+    box-shadow: 2px 2px 6px black;
+    width: 75%;
+    height: 250px;
+    margin: 15px 30px;
+}
+.hear6
+{
+    margin-top: 10px;
+    margin-left: 300px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    width: 20px;
+}
+.imag6:hover
+{
+    transform:scale(1.1 , 1.1)
+}
+.tex27
+{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    color: rgb(82, 80, 80);
+}
+.tex28
+{
+    margin-left: 20px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+.card6 span
+{
+    display: inline-block;
+    margin-top: -35px;
+    text-transform: uppercase;
+    font-size: .9rem;
+    margin-left: 15px;
+}
+.tex29
+{
+    display: inline-block;
+    margin-right: 90px;
+    text-align: center;
+    margin-top: 15px;
+}
+.card6 a .but11
+{
+    margin-left: 120px;
+    background-color: rgb(80, 152, 211);
+    text-align: center;
+    padding: 10px;
+    text-transform: capitalize;
+    outline: none;
+    box-shadow: none;
+    margin-top: 15px;
+}
+.card7
+{
+    border: 2px solid #ddd;
+    width: 350px;
+    height: 530px;
+    margin-left: 80px;
+    margin-right: 90px;
+    border-radius: 20px;
+    overflow: hidden;
+    display: inline-block;
+}
+.imag7
+{
+    border-radius: 15px;
+    box-shadow: 2px 2px 6px black;
+    width: 75%;
+    height: 250px;
+    margin: 15px 30px;
+}
+.hear7
+{
+    margin-top: 10px;
+    margin-left: 300px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    width: 20px;
+}
+.imag7:hover
+{
+    transform:scale(1.1 , 1.1)
+}
+.tex30
+{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    color: rgb(82, 80, 80);
+}
+.tex31
+{
+    margin-left: 20px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+.card7 span
+{
+    display: inline-block;
+    margin-top: -35px;
+    text-transform: uppercase;
+    font-size: .9rem;
+    margin-left: 15px;
+}
+.tex32
+{
+    display: inline-block;
+    margin-right: 90px;
+    text-align: center;
+    margin-top: 15px;
+}
+.card7 a .but12
+{
+    margin-left: 120px;
+    background-color: rgb(80, 152, 211);
+    text-align: center;
+    padding: 10px;
+    text-transform: capitalize;
+    outline: none;
+    box-shadow: none;
+    margin-top: 15px;
+}
+.card8
+{
+    border: 2px solid #ddd;
+    width: 350px;
+    height: 530px;
+    margin-left: 25px;
+    border-radius: 20px;
+    overflow: hidden;
+    display: inline-block;
+}
+.imag8
+{
+    border-radius: 15px;
+    box-shadow: 2px 2px 6px black;
+    width: 75%;
+    height: 250px;
+    margin: 15px 30px;
+}
+.hear8
+{
+    margin-top: 10px;
+    margin-left: 300px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    width: 20px;
+
+}
+.imag8:hover
+{
+    transform:scale(1.1 , 1.1)
+}
+.tex33
+{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    color: rgb(82, 80, 80);
+}
+.tex34
+{
+    margin-left: 20px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+}
+.card8 span
+{
+    display: inline-block;
+    margin-top: -35px;
+    text-transform: uppercase;
+    font-size: .9rem;
+    margin-left: 15px;
+}
+.tex35
+{
+    display: inline-block;
+    margin-right: 90px;
+    text-align: center;
+    margin-top: 15px;
+}
+.card8 a .but13
+{
+    margin-left: 120px;
+    background-color: rgb(80, 152, 211);
+    text-align: center;
+    padding: 10px;
+    text-transform: capitalize;
+    outline: none;
+    box-shadow: none;
+    margin-top: 15px;
+} */

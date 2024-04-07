@@ -1,0 +1,289 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+nav.navbar 
+{
+    background-color: gray;
+    position: relative;
+}
+h1.navbar-brand
+{
+    font-size: 2.5rem;
+    margin-left: 10px;
+    color: rgba(0, 0, 0, 0.7);
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav a.lin1
+{
+    text-decoration: none;
+}
+nav a.lin2
+{
+    text-decoration: none;
+}
+nav a.lin
+{
+    text-decoration: none;
+}
+nav a button.but1
+{
+    background-color: white;
+    /* margin-left: 180px; */
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    text-align: center;
+    /* margin-left: 5px; */
+}
+nav a button.but1:hover
+{
+    background-color: black;
+    color: white;
+}
+nav a.lin3 button.but2
+{
+    background-color: white;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    text-align: center;
+}
+
+nav a button.but2:hover
+{
+    background-color: black;
+    color: white;
+}
+.but3
+{
+    text-transform: capitalize;
+    font-size: 1.1rem;
+}
+.but3:hover .drop2
+{
+    transform: rotate(180deg);
+    color: white;
+}
+.drop1
+{
+    background-color: rgb(107, 105, 105);
+    outline: none;
+    border: none;
+    border-radius: 10px 15px 15px 10px;
+    height: 45px;
+    position: relative;
+    z-index: 2;
+}
+.inp
+{
+    width: 1100px;
+    border-radius: 12px;
+    border: none;
+    outline: none;
+}
+.gla1
+{
+    font-size: 1.5rem;
+    background-color: rgb(194, 137, 32);
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.car1
+{
+    font-size: 2.5rem;
+    margin-top: 10px;
+    cursor: pointer;
+    color: black;
+}
+.car1:hover .tex1
+{
+    display: inline-block;
+}
+.tex1
+{
+    font-size: 1.2rem;
+    margin-left: 5px;
+    /* margin-top: 5px; */
+    text-transform: capitalize;
+    display: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.for1
+{
+    border: 1px solid black;
+    border-radius: 20px;
+    transform: translate(130%, 50%);
+    width: 520px;
+    height: 520px;
+    padding: 0 0 20px 0;
+    background-color: gray;
+    position: relative;
+}
+.for1 p.h2
+{
+    color: white;
+    text-align: center;
+}
+.for1 input
+{
+    padding: 10px;
+}
+.grou1
+{
+    /* margin-left: 60px; */
+    margin-top: 20px;
+}
+/* .lab1
+{
+    font-size: 1.2rem;
+    padding-right: 20px;
+    margin-top: 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+} */
+.inp1
+{
+    font-size: 1.1rem;
+    /* text-align: center; */
+    text-transform: capitalize;
+    margin-top: 15px;
+    outline: none;
+    margin: auto;
+    width: 80%;
+}
+.grou2
+{
+    /* margin-left: 60px; */
+    margin-top: 20px;
+}
+/* .lab2
+{
+    font-size: 1.2rem;
+    padding-right: 20px;
+    margin-top: 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+} */
+.inp2
+{
+    font-size: 1.1rem;
+    /* text-align: center; */
+    text-transform: capitalize;
+    margin-top: 15px;
+    outline: none;
+    margin: auto;
+    width: 80%;
+}
+
+.grou3
+{
+    /* margin-left: 60px; */
+    margin-top: 20px;
+}
+/* .lab3
+{
+    font-size: 1.2rem;
+    padding-right: 20px;
+    margin-top: 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+} */
+.inp3
+{
+    font-size: 1.1rem;
+    /* text-align: center; */
+    text-transform: capitalize;
+    margin-top: 15px;
+    outline: none;
+    margin: auto;
+    width: 80%;
+}
+.grou4
+{
+    /* margin-left: 60px; */
+    margin-top: 20px;
+}
+/* .lab4
+{
+    font-size: 1.2rem;
+    padding-right: 20px;
+    margin-top: 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+} */
+.inp4
+{
+    font-size: 1.1rem;
+    /* text-align: center; */
+    text-transform: capitalize;
+    margin-top: 15px;
+    outline: none;
+    margin: auto;
+    width: 80%;
+}
+.grou5
+{
+    /* margin-left: 60px; */
+    margin-top: 20px;
+}
+/* .lab5
+{
+    font-size: 1.2rem;
+    padding-right: 20px;
+    margin-top: 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+} */
+.inp5
+{
+    font-size: 1.1rem;
+    /* text-align: center; */
+    margin-top: 15px;
+    text-transform: lowercase;
+    outline: none;
+    margin: auto;
+    width: 80%;
+}
+.but6
+{
+    background-color: blue;
+    text-align: center;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    margin-left: 200px;
+    margin-top: 45px;
+    display: block;
+    color: white;
+    width: 130px;
+}
+.for1 p.prg1
+{
+    display: inline;
+    margin-right: 100px;
+    margin-top: 10px;
+    float: right;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    color: rgb(124, 194, 215);
+}
+.for1 a
+{
+    margin-top: 40px;
+    margin-left: 20px;
+    text-transform: capitalize;
+    font-size: 1.3rem;
+    float: right;
+    /* position: absolute; */
+    margin-left: 250px;
+    margin-right: 30px;
+    margin-top: -50px;
+}

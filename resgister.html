@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="personal website">
+        <meta name="viewport" content="width=device-width,initial-scale =1.0">
+        <meta http-equiv="refersh" content="50s">
+        <title>Register</title>
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css.map">
+        <link rel="stylesheet" href="css/register.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-sm">
+                <div class="container-fluid">
+                    <a href="index.html" class="lin1" target="_self">
+                        <h1 class="navbar-brand col-sm-1">shopping</h1>
+                    </a>
+                    <div class="dropdown drop1">
+                        <button class="btn but3" data-bs-toggle="dropdown">all <i
+                                class="fa-solid fa-caret-down drop2"></i></button>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-item">phone</li>
+                            <li class="dropdown-item">car</li>
+                            <li class="dropdown-item">bags</li>
+                            <li class="dropdown-item">book</li>
+                            <li class="dropdown-item">laptop</li>
+                            <li class="dropdown-item">games</li>
+                        </ul>
+                    </div>
+                    <form>
+                        <div class="input-group">
+                            <input type="search" class="row  inp" placeholder="search shopping.com" />
+                            <button class="fa-solid fa-magnifying-glass gla1"></button>
+                        </div>
+                    </form>
+                    <a href="login.html" class="lin2"><button class="btn but1" id="signin">sing in</button></a>
+                    <a href="resgister.html" class="lin3"><button class="btn but2" id="singup">sing up</button></a>
+                    <a href="produect.html"><span class="fa-solid fa-cart-shopping car1">
+                            <p class="h3 tex1">cart</p>
+                        </span></a>
+                </div>
+            </nav>
+        </header>
+        <section class="sec1">
+            <form class="for1">
+                <p class="h2">Register User</p>
+                <div class="input-group grou3">
+                    <!-- <label class="lab3">firstname</label> -->
+                    <input type="text" class="inp3" placeholder="firstname" required id="firstnam">
+                </div>
+                <div class="input-group grou4">
+                    <!-- <label class="lab4">secondname</label> -->
+                    <input type="text" class="inp4" placeholder="secondname" required id="secondnam">
+                </div>
+                <div class="input-group grou5">
+                    <!-- <label  class="lab5">email</label> -->
+                    <input type="email" class="inp5" placeholder="email" required id="emai">
+                </div>
+                <div class="input-group grou1">
+                    <!-- <label class="lab1">username</label> -->
+                    <input type="text"class="inp1" placeholder="username" required id="usernam">
+                </div>
+                <div class="input-group grou2">
+                    <!-- <label class="lab2">password</label> -->
+                    <input type="password" class="inp2" placeholder="password" required id="passwor">
+                </div>
+                <button class="btn but6" id="sign_up">sign_up</button>
+                <p class="prg1">i have an account</p>
+                <a href="login.html">login</a>
+            </form>
+        </section>
+        <script src="JS/bootstrap.bundle.min.js"></script>
+        <script src="Js/bootstrap.bundle.min.js.map"></script>
+        <script src="JS/resgister.js"></script>
+    </body>
+</html>
